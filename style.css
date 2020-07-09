@@ -1,0 +1,52 @@
+body {
+    color:white;
+    background-color: rgb(52, 52, 52);
+    font-family: sans-serif;
+}
+
+#container{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin: auto;
+    border-top: 45px solid rgba(204, 212, 218, 0.555);
+    border-bottom: 15px solid rgb(204, 212, 218, 0.555);
+}
+
+.imagem{
+    width: 70px;
+}
+.format_imgagem
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0, 10px;
+    margin-top: auto;
+}
+.img_perfil{
+    /*display: inline;
+    text-align: center ;*/
+    background-image: url("https://image.freepik.com/fotos-gratis/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-595.jpg");
+    background-size: cover;
+    background-position: 50%;
+    margin-top: auto;
+    /*width: 100px;
+    
+    */
+    width: 1223px;
+    height: 200px;
+
+}
+.format_img2{
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+.format_txt{
+    color:white;
+    background-color: rgb(34, 34, 34);
+    padding: 70px;
+    border-radius: 20px;
+}
