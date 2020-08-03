@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Paleta de Cores</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Igor Exercircios</h1>
+    </header>
+    <form id="cvForm">
+      <fieldset>
+
+      <section>
+          <label form="">Nome</label>
+          <input name="Texto" placeholder="informe seu nome" required="required" type="text" max-length=40>
+      </section>
+
+      <section>
+        <label form="">Email</label>
+        <input name="email" placeholder="informe seu email" required="required" type="text" max-length=50>
+      </section>
+
+      <section>
+        <label form="">cpf</label>
+        <input name="cpf" placeholder="informe seu cpf" required="required" type="text" max-length=50>
+      </section>
+
+      <section>
+        <label form="">cidade</label>
+        <input name="cidade" placeholder="informe sua cidade" required="required" type="text" max-length=50>
+      </section>
+
+      <section>
+        <label form="">estado</label>
+        <select required="required" class="estado" name="estado">
+      </select>
+      </section>
+
+      <section>
+        <p>infome o complemento</p>
+        <label for="casa" ><input name="moradia" id="casa" value="c" required="required" type="radio">casa</label>
+        <label for="apto" ><input name="moradia" placeholder="apto" id="apto" value="a" required="required" type="radio">apto</label>
+      </section>
+
+    </fieldset>
+
+    <fieldset>
+    <section>
+      <p>Resumo ao currículo</p>
+      <label form=""></label>
+      <textarea name="curriculo" placeholder="Descreva o seu currículo em até 1000 caracteres" required="required" type="text" max-length=1000></textarea>
+    </section>
+
+    <section>
+      <label form="">cargo</label>
+      <input name="cargo" placeholder="informe seu cargo" required="required" type="text" max-length=40>
+    </section>
+
+    <section>
+      <p>Descrição do cargo</p>
+      <label form=""></label>
+      <textarea name="descrição-cargo" placeholder="Descreva de forma sucinta seu cago em até 500 caracteres" required="required" type="text" max-length=500></textarea>
+    </section>
+
+    <section>
+      <label form="">data</label>
+      <input name="data" placeholder="informe a data"  type="text" max-length=50>
+    </section>
+
+    <button id="button" type="button">Enviar</button>
+
+    <section id="rendered-curriculum">
+      
+    </section>
+
+  </fieldset>
+    
+    </form>
+    <script src="script.js"></script>
+  </body>
+
+</html>
